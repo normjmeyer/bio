@@ -1,11 +1,11 @@
 html {
-  background: darkolivegreen;
+  /* background: darkolivegreen; */
 }
 body {
   font-family: verdana, arial, helvetica;
   max-width: 800px;
   margin: auto;
-  background: beige;
+  background: white;
   padding: 20px;
 }
 
@@ -15,9 +15,14 @@ p {
   text-align: justify;
 }
 
+h1 + div {
+  background: lightgrey;
+  padding: 6px 0;
+}
+
 /* CSS for Top Title Bar of Resume */
 #resume_head {
-  background: darkkhaki;
+  background: lightgrey;
   padding: 10px;
   display: flex;
   align-items: flex-end;
