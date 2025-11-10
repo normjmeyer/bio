@@ -64,6 +64,10 @@ h1 + div {
   font-weight: bold;
   margin-top: 12px;
   padding: 0 20px 0 12px;
+
+  span:nth-child(2) {
+    text-align: end;
+  }
 }
 
 div[class="job_title"] ~ ul {
@@ -109,4 +113,5 @@ details:hover {
 
 li {
   list-style-type: disc;
+  padding: 0 12px 0 0;
 }
