@@ -68,8 +68,15 @@ h1 + section {
     font-weight: 700;
   }
 
-  a {
-    margin: 0 var(--spacing-sm) 0.125rem var(--spacing-sm); /* 0 12px 2px 12px */
+  .linkedin-link {
+    margin-left: var(--spacing-sm);
+    align-self: center;
+  }
+
+  .linkedin-logo {
+    width: 32px;
+    height: 32px;
+    display: block;
   }
 
   p {
