@@ -20,6 +20,10 @@ body {
   padding: var(--spacing-md);
 }
 
+h1 {
+  font-size: 2rem;
+}
+
 p {
   margin: var(--spacing-xs) auto;
   padding: 0 var(--spacing-lg);
