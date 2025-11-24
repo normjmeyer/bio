@@ -28,6 +28,19 @@ p {
   text-align: left;
 }
 
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: var(--accent-color);
+}
+
 h1 + div,
 h1 + section {
   background: var(--bg-section);
